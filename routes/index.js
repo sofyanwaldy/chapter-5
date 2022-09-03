@@ -10,11 +10,8 @@ router.get('/play', (req, res) => {
     res.render('play');
 });
 
-router.get('/users', (req, res) => {
-    res.json(users)
-});
-
 router.post('/login', (req, res) => {
+    // ...logic untuk login
     res.json(users)
 });
 
